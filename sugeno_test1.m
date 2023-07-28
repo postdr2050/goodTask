@@ -18,6 +18,9 @@ Mean_mf_y=linspace(-2*pi,2*pi,number_mf);
 Sigma_mf_x=unifrnd(1,2,[1,number_mf]);
 Sigma_mf_y=unifrnd(1,2,[1,number_mf]);
 rule=zeros(1,number_mf*number_mf);
+
+
+
 eta=0.2;
 eta_m=0.001;
 number_parameter=3*number_mf;
