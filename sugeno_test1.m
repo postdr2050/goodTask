@@ -7,6 +7,7 @@ output=zeros(n,1);
 x1=unifrnd(-2*pi,2*pi, [n 1]);
 y1=unifrnd(-2*pi,2*pi, [n 1]);
 target=sin(x1)./x1.*sin(y1)./y1;
+
 data=[x1 y1];
 epoch=500;
 number_train=round(0.7*n);
